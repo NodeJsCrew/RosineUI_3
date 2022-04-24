@@ -1,0 +1,1 @@
+npm install && start http://localhost:3000/veroviz && npm start
