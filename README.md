@@ -9,3 +9,7 @@ QUICK START
 ```sh
 init
 ```
+FILES TO EDIT
+- UI Page -> veroviz/index.html
+- UI Functions -> veroviz/scripts/commonFunctions.js
+
