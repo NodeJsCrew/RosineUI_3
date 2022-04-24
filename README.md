@@ -5,4 +5,7 @@ npm install
 npm start
 ```
 
-OR JUST WRITE 'init' IN THE TERMINAL TO START THE UI
+QUICK START
+```sh
+init
+```
