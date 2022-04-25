@@ -5,4 +5,11 @@ npm install
 npm start
 ```
 
-OR JUST WRITE 'init' IN THE TERMINAL TO START THE UI
+QUICK START
+```sh
+init
+```
+FILES TO EDIT
+- UI Page -> veroviz/index.html
+- UI Functions -> veroviz/scripts/commonFunctions.js
+
