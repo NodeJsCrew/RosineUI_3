@@ -6,8 +6,8 @@ function displayNodes() {
     pin[0] = viewer.entities.add({
         name : '0',
         parent : nodePins,
-        description : 'Depot',
-        position : Cesium.Cartesian3.fromDegrees(-78.787034, 43.001742),
+        description : 'depot0',
+        position : Cesium.Cartesian3.fromDegrees(104.01367200722407, 30.528623850488067),
         billboard : {
             image : pinBuilder.fromText('0', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
@@ -15,34 +15,122 @@ function displayNodes() {
     });
 
     pin[1] = viewer.entities.add({
-        name : '1',
+        name : '2',
         parent : nodePins,
-        description : 'Cust1',
-        position : Cesium.Cartesian3.fromDegrees(-78.816851, 43.015717),
+        description : 'depot2',
+        position : Cesium.Cartesian3.fromDegrees(104.29709966925348, 30.772822196057795),
         billboard : {
-            image : pinBuilder.fromText('1', Cesium.Color.GREEN, 40).toDataURL(),
+            image : pinBuilder.fromText('2', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
     pin[2] = viewer.entities.add({
-        name : '2',
+        name : '18',
         parent : nodePins,
-        description : 'Cust2',
-        position : Cesium.Cartesian3.fromDegrees(-78.791655, 43.031084),
+        description : '18',
+        position : Cesium.Cartesian3.fromDegrees(104.28680266838704, 30.795523030613346),
         billboard : {
-            image : pinBuilder.fromText('2', Cesium.Color.GREEN, 40).toDataURL(),
+            image : pinBuilder.fromText('18', Cesium.Color.BLUE, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
     pin[3] = viewer.entities.add({
-        name : '3',
+        name : '10',
         parent : nodePins,
-        description : 'Cust3',
-        position : Cesium.Cartesian3.fromDegrees(-78.749357, 43.010989),
+        description : '10',
+        position : Cesium.Cartesian3.fromDegrees(104.04023129244153, 30.510865118701325),
         billboard : {
-            image : pinBuilder.fromText('3', Cesium.Color.GREEN, 40).toDataURL(),
+            image : pinBuilder.fromText('10', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[4] = viewer.entities.add({
+        name : '11',
+        parent : nodePins,
+        description : '11',
+        position : Cesium.Cartesian3.fromDegrees(103.99120843975204, 30.50560049589363),
+        billboard : {
+            image : pinBuilder.fromText('11', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[5] = viewer.entities.add({
+        name : '15',
+        parent : nodePins,
+        description : '15',
+        position : Cesium.Cartesian3.fromDegrees(103.89578956505639, 30.562351886277686),
+        billboard : {
+            image : pinBuilder.fromText('15', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[6] = viewer.entities.add({
+        name : '1',
+        parent : nodePins,
+        description : 'depot1',
+        position : Cesium.Cartesian3.fromDegrees(104.01386184165821, 30.617298160384998),
+        billboard : {
+            image : pinBuilder.fromText('1', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[7] = viewer.entities.add({
+        name : '12',
+        parent : nodePins,
+        description : '12',
+        position : Cesium.Cartesian3.fromDegrees(104.02896410959563, 30.638559320388676),
+        billboard : {
+            image : pinBuilder.fromText('12', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[8] = viewer.entities.add({
+        name : '13',
+        parent : nodePins,
+        description : '13',
+        position : Cesium.Cartesian3.fromDegrees(103.99395430664974, 30.641511889815078),
+        billboard : {
+            image : pinBuilder.fromText('13', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[9] = viewer.entities.add({
+        name : '14',
+        parent : nodePins,
+        description : '14',
+        position : Cesium.Cartesian3.fromDegrees(104.12712885118904, 30.551713526455373),
+        billboard : {
+            image : pinBuilder.fromText('14', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[10] = viewer.entities.add({
+        name : '16',
+        parent : nodePins,
+        description : '16',
+        position : Cesium.Cartesian3.fromDegrees(104.12712885118904, 30.581852516657573),
+        billboard : {
+            image : pinBuilder.fromText('16', Cesium.Color.BLUE, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[11] = viewer.entities.add({
+        name : '17',
+        parent : nodePins,
+        description : '17',
+        position : Cesium.Cartesian3.fromDegrees(104.13193411826005, 30.554077707194395),
+        billboard : {
+            image : pinBuilder.fromText('17', Cesium.Color.BLUE, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
